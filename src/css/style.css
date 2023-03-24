@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700;800;900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.cabecalho,
+.cabecalho .menu,
+.slider-projetos,
+.quem-somos,
+.menu-rodape,
+.redes-sociais,
+.copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    height: 125px;
+}
+
+.cabecalho .menu li a {
+    font-size: 1.6rem;
+    padding: 15px;
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+.cabecalho .menu li a:hover{
+    color: #FFFFFF;
+    background-color: #1ED760;
+    transition: 0.3s ease-in-out;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.gif-cafe {
+    width: 100px;
+}
+
+.imagem-fundo{
+    filter: brightness(70%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -2;
+    opacity: 0;
+    transition: opacity ease-in-out 0.6s;
+}
+
+.mostrar{
+    background-repeat: no-repeat;
+    opacity: 1;
+    z-index: -1;
+}
+
+.painel1{
+    background: url(../imagens/painel1.jpg) center center;
+    background-size: cover;
+}
+
+.painel2{
+    background: url(../imagens/painel2.jpg) center center;
+    background-size: cover;
+
+}
+
+.painel3{
+    background: url(../imagens/painel3.jpg) center center;    
+    background-size: cover;
+
+}
+
+.slider-projetos {
+    height: 70vh;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+}
+
+.slider-projetos h1{
+    font-size: calc(1.6em + 1vw);
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+.quem-somos {
+    background: #2941ab;
+    padding: 0 10%;
+}
+
+.quem-somos h2{
+    color: #1ED760;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.quem-somos p{
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.quem-somos .imagem{
+    width: 60%;
+}
+
+.quem-somos img {
+    max-width: 100%;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.btn img {
+    width: 35px;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn.voltar{
+    transform: rotate(180deg);
+}
+
+.btn.desativado{
+    opacity: 50%;
+    cursor: default;
+}
+
+.rodape{
+    padding: 80px 0 20px;
+}
+
+.copy-right{
+    font-size: 1.6rem;
+    margin-top: 70px;
+}
+
+.menu-rodape .redes-sociais li a{
+    font-size: 3rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 10px;
+    width: 65px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-rodape .redes-sociais li a:hover{
+    background-color: #1ED760;
+    transition: 0.3s ease-in-out;
+}
+
+span:hover {
+    color: #1ED760;
+    transition: 0.3s ease-in-out;
+}
