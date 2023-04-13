@@ -1,4 +1,4 @@
-# MapaDevWeek - Mini portfólio.
+# MapaDevWeek - Agência XPTO.
 
 Essa é a minha versão do projeto Agência XPTO.
 
